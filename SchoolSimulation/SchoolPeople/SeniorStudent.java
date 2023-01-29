@@ -1,10 +1,8 @@
-package askisijava.SchoolPeople.JuniorStudent;
+package SchoolSimulation.SchoolPeople;
 
-import askisijava.SchoolPeople.Student.Student;
-
-public class JuniorStudent extends Student{
+public class SeniorStudent extends Student{
     private int tiredIncrease; //degree of tiredness increase
-    public JuniorStudent(String n, int r, int c, int t_d){
+    public SeniorStudent(String n, int r, int c, int t_d){
         super(n, r, c);
         tiredIncrease = t_d;
     } 

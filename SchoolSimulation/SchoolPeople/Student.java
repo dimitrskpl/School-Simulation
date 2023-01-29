@@ -1,6 +1,4 @@
-package askisijava.SchoolPeople.Student;
-
-import askisijava.SchoolPeople.SchoolPerson.SchoolPerson;
+package SchoolSimulation.SchoolPeople;
 
 public abstract class Student extends SchoolPerson{
     public Student(String n, int r, int c){ //initialization of SchoolPerson

@@ -1,7 +1,6 @@
-package askisijava.SchoolEnviroment.Staircase;
+package SchoolSimulation.SchoolEnviroment;
 
-import askisijava.SchoolEnviroment.SchoolPlace.SchoolPlace;
-import askisijava.SchoolPeople.Student.Student;
+import SchoolSimulation.SchoolPeople.Student;
 
 public class Staircase extends SchoolPlace{  
     public Staircase(){

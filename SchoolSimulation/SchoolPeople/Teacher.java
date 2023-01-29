@@ -1,6 +1,4 @@
-package askisijava.SchoolPeople.Teacher;
-
-import askisijava.SchoolPeople.SchoolPerson.SchoolPerson;
+package SchoolSimulation.SchoolPeople;
 
 public class Teacher extends SchoolPerson{
     private int tiredIncrease; //degree of tiredness increase

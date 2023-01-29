@@ -1,11 +1,7 @@
-package askisijava.SchoolEnviroment.School;
+package SchoolSimulation.SchoolEnviroment;
 
-import askisijava.SchoolEnviroment.Floor.Floor;
-import askisijava.SchoolEnviroment.SchoolPlace.SchoolPlace;
-import askisijava.SchoolEnviroment.Staircase.Staircase;
-import askisijava.SchoolEnviroment.Yard.Yard;
-import askisijava.SchoolPeople.Student.Student;
-import askisijava.SchoolPeople.Teacher.Teacher;
+import SchoolSimulation.SchoolPeople.Student;
+import SchoolSimulation.SchoolPeople.Teacher;
 
 public class School extends SchoolPlace{
     private Yard yard; //school yard

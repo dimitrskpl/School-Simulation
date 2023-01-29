@@ -1,4 +1,4 @@
-package askisijava.SchoolPeople.Person;
+package SchoolSimulation.SchoolPeople;
 
 public class Person {
     private String name;

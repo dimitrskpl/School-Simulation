@@ -1,7 +1,6 @@
-package askisijava.SchoolEnviroment.Corridor;
+package SchoolSimulation.SchoolEnviroment;
 
-import askisijava.SchoolEnviroment.SchoolPlace.SchoolPlace;
-import askisijava.SchoolPeople.Student.Student;
+import SchoolSimulation.SchoolPeople.Student;
 
 public class Corridor extends SchoolPlace{    
     public Corridor(){

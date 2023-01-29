@@ -1,4 +1,4 @@
-package askisijava.SchoolMain;
+package SchoolSimulation.SchoolMain;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,25 +6,26 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Vector;
 
-import askisijava.SchoolEnviroment.School.School;
-import askisijava.SchoolPeople.JuniorStudent.JuniorStudent;
-import askisijava.SchoolPeople.SeniorStudent.SeniorStudent;
-import askisijava.SchoolPeople.Student.Student;
-import askisijava.SchoolPeople.Teacher.Teacher;
+import SchoolSimulation.SchoolEnviroment.School;
+import SchoolSimulation.SchoolPeople.JuniorStudent;
+import SchoolSimulation.SchoolPeople.SeniorStudent;
+import SchoolSimulation.SchoolPeople.Student;
+import SchoolSimulation.SchoolPeople.Teacher;
 
 
 public class SchoolMain {
     static public void main(String[] args) throws
 FileNotFoundException {
-        int c_class = Integer.parseInt(args[0]); //capacity of classrooms
-        int Lj = Integer.parseInt(args[1]); //tiredness increase degree for junior students
-        int Ls = Integer.parseInt(args[2]); //tiredness increase degree for senior students
-        int Lt = Integer.parseInt(args[3]); //tiredness increase degree for teachers
-        int N = Integer.parseInt(args[4]); //school operation hours
+        String inputFile = args[0];
+        int c_class = Integer.parseInt(args[1]); //capacity of classrooms
+        int Lj = Integer.parseInt(args[2]); //tiredness increase degree for junior students
+        int Ls = Integer.parseInt(args[3]); //tiredness increase degree for senior students
+        int Lt = Integer.parseInt(args[4]); //tiredness increase degree for teachers
+        int N = Integer.parseInt(args[5]); //school operation hours
         
         Vector<Student> students = new Vector<>();
         Vector<Teacher> teachers = new Vector<>();
-        File file = new File("askisijava/SchoolMain/input.txt");
+        File file = new File(inputFile);
         Scanner sc = new Scanner(file);
         
         while(sc.hasNextLine()){

@@ -1,6 +1,4 @@
-package askisijava.SchoolPeople.SchoolPerson;
-
-import askisijava.SchoolPeople.Person.Person;
+package SchoolSimulation.SchoolPeople;
 
 public class SchoolPerson extends Person{
     private int roof; //roof number

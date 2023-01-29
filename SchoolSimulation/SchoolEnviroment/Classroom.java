@@ -1,10 +1,9 @@
-package askisijava.SchoolEnviroment.Classroom;
+package SchoolSimulation.SchoolEnviroment;
 
 import java.util.Vector;
 
-import askisijava.SchoolEnviroment.SchoolPlace.SchoolPlace;
-import askisijava.SchoolPeople.Student.Student;
-import askisijava.SchoolPeople.Teacher.Teacher;
+import SchoolSimulation.SchoolPeople.Student;
+import SchoolSimulation.SchoolPeople.Teacher;
 
 public class Classroom extends SchoolPlace{
     private Vector<Student> studentArray; //includes the students of the classroom

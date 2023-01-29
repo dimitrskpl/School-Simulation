@@ -1,6 +1,6 @@
-package askisijava.SchoolEnviroment.SchoolPlace;
+package SchoolSimulation.SchoolEnviroment;
 
-import askisijava.SchoolPeople.Student.Student;
+import SchoolSimulation.SchoolPeople.Student;
 
 public abstract class SchoolPlace{
     //the student who exists in the place

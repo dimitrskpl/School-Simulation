@@ -1,13 +1,28 @@
 # School-Simulation
+Go to initial folder School-Simulation/
+The compilation command is:
+javac ./SchoolSimulation/SchoolMain/SchoolMain.java ./SchoolSimulation/SchoolEnviroment/*.java ./SchoolSimulation/SchoolPeople/*.java
+The execution command is: 
+java SchoolSimulation/SchoolMain/SchoolMain <input_file> <class_c> <j_s_hourly_increase> <s_s_hourly_increase> <t_hourly_increase> <op_hours>
+class_c: the capacity of the classroom
+j_s_hourly_increase: the hourly increase in the degree of tiredness of students in small classes
+s_s_hourly_increase: the hourly increase in the degree of tiredness of students in large classes 
+t_hourly_increase: the hourly increase in the degree of tiredness of the teachers
+op_hours: the school's operating hours
+input_file: The path the input file ralated to School-Simulation/ . Each line of the file must contain information for a single person and must be of the form: 
+<type> <name> <class> <floor> 
+type: the person's type ("Student"/"Teacher")
+name: the name of the person
+class: the number of the classroom (1-6)
+floor: the number of the floor (1-3)
 
-The commands for the compilation are:
-javac askisijava/SchoolMain/SchoolMain.java
-The execution command is java askisijava/SchoolMain/SchoolMain with 5 integers on the command line where the first corresponds to
-the class capacity, the second to the hourly increase in the degree of tiredness of students in small classes, the third to the hourly increase in the degree of tiredness of students in large classes, the fourth to the hourly increase in the degree of tiredness of the teachers and the fifth corresponds to the school's operating hours.
+This file must include the 18 teachers of the school.
+There is an example file SchoolSimulation/SchoolMain/input.txt.
 
-It is necessary to have a file called "input.txt" in the SchoolMain project in which each line contains information
-for a single person, as in the indicative existing. In each line the first word is the person's type, "Student" or "Teacher",
-the second is its name (string), the third its class (int) and the fourth its floor (int). In this file you should include the 18 teachers of the school, while the students in total should be able to be placed in classes based on their capacity.
+
+
+
+
 
 There are 3 general projects: the SchoolEnviroment which contains all the necessary classes for the implementation of the school spaces,
 the SchoolPeople which contains all the necessary classes to implement the individuals of the school and the SchoolMain which contains

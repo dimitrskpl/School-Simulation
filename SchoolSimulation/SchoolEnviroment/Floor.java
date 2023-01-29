@@ -1,10 +1,7 @@
-package askisijava.SchoolEnviroment.Floor;
+package SchoolSimulation.SchoolEnviroment;
 
-import askisijava.SchoolEnviroment.Classroom.Classroom;
-import askisijava.SchoolEnviroment.Corridor.Corridor;
-import askisijava.SchoolEnviroment.SchoolPlace.SchoolPlace;
-import askisijava.SchoolPeople.Student.Student;
-import askisijava.SchoolPeople.Teacher.Teacher;
+import SchoolSimulation.SchoolPeople.Student;
+import SchoolSimulation.SchoolPeople.Teacher;
 
 public class Floor extends SchoolPlace{
     private int floor_numb; //number of floor

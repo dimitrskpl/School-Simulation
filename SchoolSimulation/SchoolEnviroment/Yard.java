@@ -1,7 +1,6 @@
-package askisijava.SchoolEnviroment.Yard;
+package SchoolSimulation.SchoolEnviroment;
 
-import askisijava.SchoolEnviroment.SchoolPlace.SchoolPlace;
-import askisijava.SchoolPeople.Student.Student;
+import SchoolSimulation.SchoolPeople.Student;
 
 public class Yard extends SchoolPlace{    
     public Yard(){
