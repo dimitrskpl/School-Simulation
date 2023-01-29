@@ -73,8 +73,9 @@ public class Floor extends SchoolPlace{
     }
         
     //prints floor by printing the classrooms of floor  
-    public void print(){       
-        System.out.println("\tFloor number " + floor_numb + " contains:");
+    public void print(){   
+        int real_floor_numb = floor_numb + 1;    
+        System.out.println("\tFloor number " + real_floor_numb + " contains:");
         for(int i = 0; i < 6; i++)
             classroomArray[i].print();
     }
