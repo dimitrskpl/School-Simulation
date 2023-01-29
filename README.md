@@ -16,9 +16,9 @@ operates for N hour. Finally, the school is evacuated. The school simulation is 
 
 Go to initial folder School-Simulation/
 The compilation command is:
-javac ./SchoolSimulation/SchoolMain/SchoolMain.java ./SchoolSimulation/SchoolEnviroment/*.java ./SchoolSimulation/SchoolPeople/*.java
+$javac ./SchoolSimulation/SchoolMain/SchoolMain.java ./SchoolSimulation/SchoolEnviroment/*.java ./SchoolSimulation/SchoolPeople/*.java
 The execution command is: 
-java SchoolSimulation/SchoolMain/SchoolMain <inputFile> <Cclass> <Lj> <Ls> <Lt> <N>
+$java SchoolSimulation/SchoolMain/SchoolMain <inputFile> <Cclass> <Lj> <Ls> <Lt> <N>
 Cclass: the capacity of the classroom
 Lj: the hourly increase in the degree of tiredness of students in small classes
 Ls: the hourly increase in the degree of tiredness of students in large classes 
